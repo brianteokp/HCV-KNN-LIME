@@ -1,0 +1,39 @@
+ Questions:
+Using KNN to predict disease progression based on biomarkers from hepatic panels.
+
+Project learning outcomes:
+1. Analyze, wrangle and clean data.
+2. Carry out hyperparameter optimization on cross validation set. (elbow plot method)
+3. Utilize optimized hyperparameter to predict based on test set.
+4. Carry out LIME analysis for model explanation (WIP)
+
+Inputs:
+ALB - albumin
+ALP - alkaline phosphatase
+ALT - alanine amino-transferase
+AST - aspartate amino-transferase
+BIL - bilirubin
+CHE - choline esterase
+CHOL - (unable to find)
+CREA - (unable to find)
+GGT - gamma-glutamyl transferase
+PROT - (unable to find)
+
+Outputs:
+Note: All blood donor and suspected case data removed.
+1 = Hepatitis
+2 = Fibrosis
+3 = Cirrhosis
+
+Hepatitis C virus is the causative agent of Hepatitis C, which can lead to chronic inflammation, with increased damage leading to excessive tissue remodelling as observed in fibrosis.
+Further accumulation of such scarring results in severe scarring of the liver and greatly reduced liver function (cirrhosis).
+
+Therapeutic interventions largely involve antiviral regimens, and are effectively controlled in most chronic cases.
+The regimen differs depending on HCV genotype and presence and absence of cirrhosis, which can also determine the necessity of liver transplantation.
+Since progressive fibrosis is the major cause of morbidity in chronic liver diseases, it is imperative that prognostic markers must be identified that can predict disease progression,
+such that therapeutic interventions can begin early. 
+
+Data set courtesy of:
+Dua, D. and Graff, C. (2019). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+http://archive.ics.uci.edu/ml/datasets/HCV+data#
